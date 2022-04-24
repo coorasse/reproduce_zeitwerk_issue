@@ -5,8 +5,8 @@ ruby "3.1.0"
 
 gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 
-# gem "rails_api_logger", path: 'rails_api_logger' # <-- uncomment this line and test is failing
-# gem "rails_api_logger", github: 'renuo/rails_api_logger', branch: 'new_logger' # <-- uncomment this line and test is green
+gem "rails_api_logger", path: 'rails_api_logger' # <-- uncomment this line and test is failing
+# gem "rails_api_logger", github: 'renuo/rails_api_logger', branch: 'main' # <-- uncomment this line and test is green
 
 gem "sqlite3", "~> 1.4"
 
